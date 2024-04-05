@@ -25,3 +25,8 @@ h1 {
 form {
     margin-bottom: 20px;
 }
+
+#pokemon-details {
+    font-weight: 875;
+    letter-spacing: 1px;
+}
