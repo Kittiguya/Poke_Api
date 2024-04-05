@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Insert Pokemon Name below to recieve information about it</h1>
+        <form id="search-form">
+            <input type="text" id="pokemon-name" placeholder="Enter Pokémon Name">
+            <button type="submit" id="submit-button">Search</button>
+        </form>
+        <div id="pokemon-info">
+            <!-- Pokémon information will be displayed here -->
+            <img id="pokemon-img" src="" alt="Pokémon Image">
+            <div id="pokemon-details">
+                <!-- Pokémon details like name, abilities, types, etc., will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="api.js" type="module" defer></script>
+</body>
+
+</html>
