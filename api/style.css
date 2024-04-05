@@ -4,12 +4,10 @@ body {
     background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 #pokemon-img {
     max-width: 500px;
     margin: 20px auto;
 }
-
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -19,15 +17,11 @@ body {
     background: #0B486B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
     padding: 20px;
 }
-
 h1 {
     color: rgb(0, 0, 0);
 }
-
 form {
     margin-bottom: 20px;
 }
